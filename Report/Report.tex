@@ -1,0 +1,71 @@
+\documentclass[a4paper,12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{amsmath}
+\usepackage{caption}
+\usepackage{geometry}
+\geometry{margin=1in}
+
+\title{Digital Logic Design Report}
+\author{Mahla Entezari}
+\date{Academic Year 2023-2024}
+
+\begin{document}
+
+\maketitle
+
+\section*{Instructor: Shima Tabibian}
+\section*{Course: Principles of Computer Systems Laboratory}
+
+\section{Binary to Gray and Gray to Binary Code Converter}
+In this project, a converter was implemented to transform a 4-bit binary number into its corresponding Gray code and vice versa. The conversion formulas used are as follows:
+
+\begin{itemize}
+    \item \textbf{Binary to Gray:} The most significant bit (MSB) remains unchanged. Each subsequent bit is obtained by XORing the current binary bit with the previous one.
+    \item \textbf{Gray to Binary:} The MSB remains unchanged. Each subsequent binary bit is found by XORing the previous binary bit with the current Gray code bit.
+\end{itemize}
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{1.png}
+    \caption{Binary to Gray and Gray to Binary Conversion Circuit}
+\end{figure}
+
+The circuit was tested successfully with two different 4-bit values to verify accurate conversion in both directions.
+
+\section{Full Adder Design}
+The full adder circuit was designed and implemented using basic logic gates. The full adder adds two input bits and a carry-in bit, producing a sum and a carry-out bit.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{2.png}
+    \caption{Full Adder Circuit Designs}
+\end{figure}
+
+The circuit was tested across all 8 possible combinations of 3 input bits (A, B, and Carry-in), verifying the correct sum and carry-out results.
+
+\section{3-bit Binary Adder Using Full Adders}
+A 3-bit binary adder was constructed by chaining three full adders in series. Each full adder handles a corresponding bit from the input binary numbers.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=0.9\textwidth]{3.png}
+    \caption{3-bit Full Adder Circuit}
+\end{figure}
+
+This design was tested with different 3-bit binary numbers to validate the overall addition result and the final carry-out.
+
+\section{Conclusion}
+In this laboratory project, we explored various fundamental digital logic circuits:
+
+\begin{itemize}
+    \item Code converters (Binary \textless$\rightarrow$\textgreater Gray)
+    \item Full adder circuits
+    \item Multi-bit binary adders using chained full adders
+\end{itemize}
+
+Each design was implemented and simulated successfully using Logicly software. These circuits form the foundation of digital arithmetic units in computer systems.
+
+\end{document}
+
