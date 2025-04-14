@@ -3,7 +3,7 @@
 
 **Instructor:** Shima Tabibian  
 **Course:** Principles of Computer Systems Laboratory  
-**Academic Year:** 1402–1403  
+**Academic Year:** 2023–2024  
 
 ---
 
