@@ -1,7 +1,7 @@
 
 # **Digital Logic Design Report**
 
-**Instructor:** Shima Tabibian  
+**Instructor:** Dr. Shima Tabibian  
 **Course:** Principles of Computer Systems Laboratory  
 **Academic Year:** 2023–2024  
 
